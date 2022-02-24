@@ -6,7 +6,7 @@
 /*   By: dluna-lo <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 16:46:26 by dluna-lo          #+#    #+#             */
-/*   Updated: 2022/02/24 18:36:24 by dluna-lo         ###   ########.fr       */
+/*   Updated: 2022/02/24 18:54:17 by dluna-lo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,21 +30,12 @@ void	ft_print(int a, int b, int c, int d)
 	}
 }
 
-void	ft_print_comb2(void)
+void	ft_loop(int a, int b, int c, int d)
 {
-	int	a;
-	int	b;
-	int	c;
-	int	d;
-
-	a = '0';
-	b = '0';
-	c = '0';
-	d = '0';
 	while (a < ('9' + 1))
 	{
 		while (b < ('8' + 1))
-		{
+		{	
 			while (c < ('9' +1))
 			{
 				while (d < ('9' + 1))
@@ -61,6 +52,20 @@ void	ft_print_comb2(void)
 		b = '0';
 		a++;
 	}
+}
+
+void	ft_print_comb2(void)
+{
+	int	a;
+	int	b;
+	int	c;
+	int	d;
+
+	a = '0';
+	b = '0';
+	c = '0';
+	d = '1';
+	ft_loop(a, b, c, d);
 }
 
 int	main(void)
