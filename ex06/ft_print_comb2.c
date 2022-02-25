@@ -6,7 +6,7 @@
 /*   By: dluna-lo <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 16:46:26 by dluna-lo          #+#    #+#             */
-/*   Updated: 2022/02/24 18:54:17 by dluna-lo         ###   ########.fr       */
+/*   Updated: 2022/02/24 19:04:22 by dluna-lo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,9 +66,4 @@ void	ft_print_comb2(void)
 	c = '0';
 	d = '1';
 	ft_loop(a, b, c, d);
-}
-
-int	main(void)
-{
-	ft_print_comb2();
 }
