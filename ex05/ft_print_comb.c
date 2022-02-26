@@ -6,7 +6,7 @@
 /*   By: dluna-lo <marvin@42quebec.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/24 12:33:02 by dluna-lo          #+#    #+#             */
-/*   Updated: 2022/02/24 15:02:08 by dluna-lo         ###   ########.fr       */
+/*   Updated: 2022/02/25 21:05:04 by dluna-lo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,4 +50,9 @@ void	ft_print_comb(void)
 		b = a;
 		a++;
 	}
+}
+
+int	main(void)
+{
+	ft_print_comb();
 }
